@@ -1,0 +1,112 @@
+
+.trackcard_div{
+  background-color: aliceblue;
+  position: inherit;
+  margin:0 auto;
+  width: 30%;
+  height: 11em;
+  background: linear-gradient(97.83deg, rgba(61, 46, 149, 0.35) 0%, #3D2E95 100%);
+  box-shadow: 0px 3px 6px 0px violet;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+  padding: 1em;
+  
+}
+.trackcard_section{
+  position: inherit;
+  margin:0 auto;
+  width: 99%;
+  height: 99%;
+  background: linear-gradient(97.83deg, rgba(61, 46, 149, 0.35) 0%, #3D2E95 100%);
+  display: flex; /* Agregamos display flex */
+  flex-direction: column; /* Mostrar elementos secundarios en columna */
+  border-radius: 1em 1em 1em 1em;
+}
+.trackcard_header {
+    width: 50%;
+    position: relative;
+    top:2.5em
+}
+.trackcard_image {
+   
+    width: 83.88px;
+height: 57.56px;
+top: 283px;
+left: 430px;
+border-radius: 10.38px;
+
+    height: auto;
+    border-radius: 5px;
+  }
+  .trackcard_article {
+    position: relative;
+    bottom: 2.3em;
+    left: 20%;
+    
+  }
+  
+  .trackcard_to_id {
+    width: 81px;
+height: 20px;
+top: 288.8px;
+left: 498.02px;
+font-family: Urbanist;
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0.188724547624588px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+  }
+.trackcard_h3{
+  font-size: 1em;
+    font-weight: bold;
+   margin-bottom: 2em;
+   margin-left: 3em; 
+}
+.trackcard_ul{
+  width: 60px;
+height: 18px;
+top: 314.57px;
+left: 498.02px;
+font-family: Urbanist;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: 0.188724547624588px;
+text-align: left;
+
+
+}
+.trackcard_li{
+   font-size: 0.7em;
+   list-style: none;
+}
+.trackcard_footer{
+    font-size: 12px;
+    color: #b62424;
+    text-align: right;
+    position: relative;
+    bottom: 5em;
+}
+@media (max-width:768px){
+  .trackcard_div{
+  display: flex;
+    height: 7em;
+}
+.trackcard_image{
+  display: flex;
+  margin-top: -1em ;
+  margin-left: 0.3em;
+  width: 53.88px;
+}
+.trackcard_h3{
+  margin-left: 4em;
+  max-width: 55%;
+}
+.trackcard_ul{
+  list-style: none;
+}
+.trackcard_footer{
+  margin-top: 3%;
+}
+}
